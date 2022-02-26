@@ -1,0 +1,37 @@
+|---------------+----------------------------------+-------------------------+--------------------------|
+| key           | function                         | 意味                    |                          |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c C-r   | cargo-process-run                | cargo run               |                          |
+| C-c C-c C-c   | cargo-process-repeat             | 前回の実行を繰り返す    | C-c C-c C-x のあとに便利 |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c RET   | cargo-process-fmt                | rustfmt の適用          | C-c C-f と重複           |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c C-s   | cargo-process-search             | cargo search xxx        | gem sarch 相当           |
+| C-c C-c C-a   | cargo-process-add                | cargo add               | bundle add 相当          |
+| C-c C-c C-S-d | cargo-process-rm                 | cargo rm                | gem uni 相当(?)          |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c C-b   | cargo-process-build              | cargo build             |                          |
+| C-c C-c C-e   | cargo-process-bench              | cargo bench             |                          |
+| C-c C-c C-k   | cargo-process-check              | cargo check             |                          |
+| C-c C-c C-l   | cargo-process-clean              | cargo clean             |                          |
+| C-c C-c C-u   | cargo-process-update             | cargo update            |                          |
+| C-c C-c C-x   | cargo-process-run-example        | cargo run --example foo | examples/foo.rs を実行   |
+| C-c C-c C-S-a | cargo-process-audit              | cargo audit             | 動かん                   |
+| C-c C-c C-S-k | cargo-process-clippy             | cargo clippy            | 動かん                   |
+| C-c C-c C-S-o | cargo-process-outdated           | cargo outdated          | 動かん                   |
+| C-c C-c C-S-u | cargo-process-upgrade            | cargo upgrade なのか？  |                          |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c C-t   | cargo-process-test               |                         |                          |
+| C-c C-c C-f   | cargo-process-current-test       | cargo test 関数名       |                          |
+| C-c C-c C-o   | cargo-process-current-file-tests | cargo test              |                          |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c C-d   | cargo-process-doc                | cargo doc               |                          |
+| C-c C-c C-v   | cargo-process-doc-open           | cargo doc --open        |                          |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-c TAB   | cargo-process-init               | cargo init xxx --bin    | いらん                   |
+| C-c C-c C-n   | cargo-process-new                | cargo new xxx --bin     | いらん                   |
+|---------------+----------------------------------+-------------------------+--------------------------|
+| C-c C-d       | rust-dbg-wrap-or-unwrap          | dbg!(xxx) をつける/外す |                          |
+| C-c C-f       | rust-format-buffer               | C-c C-c RET と同じ      |                          |
+| C-c C-n       | rust-goto-format-problem         |                         |                          |
+|---------------+----------------------------------+-------------------------+--------------------------|
